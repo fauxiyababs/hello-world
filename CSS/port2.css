@@ -1,0 +1,280 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    /* margin: 3rem 0 0 0; */
+    font-family: poppins sans-serif;
+    font-size: 0.938rem;
+    color: #0e2431;
+    padding-top: 50px;
+}
+h1,h2,p{
+    margin: 0;
+
+}
+
+nav{
+    background-color: #0e2431;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-item{
+    margin-bottom: 4px;
+}
+.nav-link{
+    position: relative;
+    color: #fff;
+}
+.nav-link:hover{
+    position: relative;
+}
+.nav-link:hover::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0.18rem;
+    left: 0;
+    top: 2rem;
+    background-color: #4070f4;
+}
+.nav-logo{
+    color: #0e2431;
+}
+.nav-toggle{
+    color:#0e2431;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.header_name{
+    text-shadow: 4px 2px 5px #4070f4
+}
+.home_social-icons{
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+.HOME{
+    background: url(../image/fauxy.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-attachment: fixed;
+    padding: 80px 0px;
+    margin: auto;
+    height: 100vh;
+    min-height: 500px;
+}
+.home_title{
+    font-size:5rem ;
+    margin-bottom: 2px;
+}
+.home_title-color{
+    color:#4070f4;
+}
+.home_img{
+    border-radius: 35px ;
+    padding-left: 5px;
+    width: 600px;
+    bottom: 12%;
+}
+.home_con{
+    margin-top: 3rem;
+}
+.button{
+    display: inline-block;
+    background-color: #4070f4;
+    color: #fff;
+    padding: .9rem 5rem;
+    font-weight: 600;
+    border-radius: 1rem;
+}
+/*.button:hover{
+    //box-shadow: 0 10px 36px rgba(0, 0, 0, .15);
+     position: absolute;
+    content: "";
+    width: 60px;
+    height: 0.20rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 5rem;
+//}*/
+.section_title{
+    color:#4070f4;
+    text-align: center;
+}
+.title_underline{
+    width: 60px;
+    height: 3px;
+    margin: 0 auto;
+    padding: 2px;
+    background-color:#4070f4;
+}
+section{
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+/*====About====*/
+.about_container{
+    row-gap: 2rem;
+    /* align-items: center; */
+    text-align: initial;
+}
+.about_subtitle{
+    margin:10px;
+}
+.about_img{
+    justify-content: ;
+}
+.about_img img{
+    width: 500px;
+    border-radius: .4rem;
+}
+.about_text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-style: normal;
+    font-weight: 400; */
+    align-items: center;
+    text-align: initial;
+    font-size: 1rem;
+}
+
+/*====SKILLS==*/
+.skills_container{
+    row-gap: 2rem;
+    text-align: center;
+    align-items: initial;
+}
+.skills_subtitle{
+    margin-bottom: 15px;
+}
+
+
+.skills_data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-weight: bolder;
+    padding: .5rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: .5rem;
+    box-shadow: 0 4px 25px rgba(14,36,49,.15);
+}
+.skills_icon{
+    font-size: 2rem;
+    margin-right: 2rem;
+    color: #4070f4;
+}
+.skills_names{
+    display: flex;
+    align-items: center;
+}
+.skills_bar{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #4070f4;
+    height: .25rem;
+    border-radius: .5rem;
+    z-index: -10;
+
+}
+.skills_html{
+    width: 90%;
+}
+.skills_css{
+    width: 85%;
+}
+.skills_js{
+    width: 75%;
+}
+.skills_Njs{
+    width: 50%;
+}
+.skills_img{
+    border-radius: .5rem;
+    margin-top: 15px;
+}  
+/*====CONTACT====*/
+.contact_input{
+    width: 100%;
+    font-size:  0.938rem;
+    font-weight: 600;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: 1.5px solid #0e2431 ;
+}
+
+.contact_body{
+    background-color: #0e2431;
+    color: #fff;
+    
+}
+.contact_slide{
+    align-items: center;
+}
+.contact_form{
+    background-color: #4070f4;
+    color: #fff;
+}
+.contact_idea:hover{
+    background-color: #4070f4;
+    color: #fff;
+}
+/*====FOOTER====*/
+.footer{
+    background-color: #0e2431;
+    color: #fff;
+    text-align: center;
+    font-weight: 60;
+    padding: 1rem 0;
+}
+.footer_title{
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+.footer_social{
+    margin-bottom: 2rem;
+}
+.footer_icons{
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
